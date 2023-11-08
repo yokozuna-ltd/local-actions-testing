@@ -1,0 +1,14 @@
+# https://help.github.com/en/articles/metadata-syntax-for-github-actions
+
+author: 'eroullit'
+branding:
+  icon: 'check'
+  color: 'blue'
+name: 'Composite action test'
+description: 'Say hello'
+runs:
+  using: 'composite'
+  steps:
+    - id: Hello
+      run: echo "Hello World"
+      shell: bash
