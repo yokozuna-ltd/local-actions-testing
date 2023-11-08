@@ -10,5 +10,5 @@ runs:
   using: 'composite'
   steps:
     - id: Hello
-      run: echo "Hello World"
+      run: echo "Hello World from $GITHUB_REF"
       shell: bash
